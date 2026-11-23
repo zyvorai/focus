@@ -25,14 +25,14 @@
 <link rel="stylesheet" href="assets/landing.css">
 <link rel="stylesheet" href="assets/zyvor-buyer.css">
 <style>:root{--accent-btn:#4f46e5;--accent-ink:#4f46e5;--accent-grad-a:#6d5bf5;--accent-grad-b:#ddd6fe}@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--accent-ink:#a5b4fc}}:root[data-theme="dark"]{--accent-ink:#a5b4fc}</style>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Focus Profiles","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS","url":"https://zyvorai.github.io/focus/","description":"Focus Profiles for macOS 27 or later: one hotkey sets up a project's windows, terminals, browser tabs, VPN and kube context. A dry run shows what it will do. No network. Notarized app, 30-day trial key.","image":"https://zyvorai.github.io/focus/social/og.png","offers":{"@type":"Offer","price":"1999","priceCurrency":"INR","url":"https://zyvor.dev/buy#focus-profiles"},"publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Zyvor Focus Profiles","applicationCategory":"UtilitiesApplication","operatingSystem":"macOS","softwareVersion":"0.2.0","downloadUrl":"https://github.com/zyvorai/focus/releases/tag/v0.2.0","url":"https://zyvorai.github.io/focus/","description":"Focus Profiles for macOS 27 or later: one hotkey sets up a project's windows, terminals, browser tabs, VPN and kube context. A dry run shows what it will do. No network. Notarized app, 30-day trial key.","image":"https://zyvorai.github.io/focus/social/og.png","offers":{"@type":"Offer","price":"1999","priceCurrency":"INR","url":"https://zyvor.dev/buy#focus-profiles"},"publisher":{"@type":"Organization","name":"Zyvor AI Labs Private Limited","url":"https://zyvor.dev"}}</script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <header class="nav">
   <a class="brand" href="./" aria-label="Focus Profiles home"><img src="icon.png" width="26" height="26" alt=""><span>Focus Profiles</span></a>
   <nav aria-label="Primary"><ul><li><a href="#features">Features</a></li><li><a href="#start">Get started</a></li><li><a href="#licence">Price</a></li><li><a href="#faq">FAQ</a></li><li><a href="docs/">Docs</a></li></ul></nav>
-  <a class="btn small primary" href="https://zyvor.dev/contact?intent=trial&amp;product=focus" rel="noopener">Get a trial</a>
+  <a class="btn small primary" href="https://github.com/zyvorai/focus/releases/tag/v0.2.0">Download</a>
 </header>
 <main id="main">
 <section class="hero" aria-labelledby="top">
@@ -43,18 +43,19 @@
   <p class="promise"><strong>Set up a project in one keystroke.</strong> Windows go where you saved them, terminals and browser tabs open, the right VPN connects and kubectl points at the right cluster. A dry run shows what will happen first, and nothing leaves your Mac.</p>
   <div class="buyer" role="group" aria-label="Get Focus Profiles">
     <div class="actions">
-      <a class="btn primary" href="https://zyvor.dev/contact?intent=trial&amp;product=focus" rel="noopener">Ask for a 30-day trial</a>
+      <a class="btn primary" href="https://github.com/zyvorai/focus/releases/download/v0.2.0/FocusProfiles-0.2.0.dmg">Download Focus Profiles 0.2.0</a>
+      <a class="btn ghost" href="https://zyvor.dev/contact?intent=trial&amp;product=focus" rel="noopener">Ask for a 30-day trial</a>
       <a class="btn ghost" href="https://zyvor.dev/buy#focus-profiles" rel="noopener">Buy a license</a>
     </div>
-    <p class="sub">INR 1,999 per Mac, one-time · <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> · <a href="docs/">Docs</a></p>
-    <p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Developer ID signed and notarized by Apple.</strong> The notarized DMG comes with your trial key.</span></p>
+    <p class="sub">FocusProfiles-0.2.0.dmg · INR 1,999 per Mac, one-time · <a href="https://zyvor.dev/pricing" rel="noopener">See current prices</a> · <a href="docs/">Docs</a></p>
+    <p class="trust"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.2 8-8 9-4.8-1-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg><span><strong>Developer ID signed and notarized by Apple.</strong> This applies to the 0.2.0 DMG.</span></p>
     <ul class="reqs"><li>Requires macOS 27 or later on Apple silicon.</li></ul>
   </div>
 </section>
 
 <section class="outcomes" id="features" aria-labelledby="outcomes-h">
   <h2 id="outcomes-h">Stop rebuilding your desk every morning.</h2>
-  <ul class="tiles"><li class="tile"><h3>Windows, where you left them</h3><p>Save a layout once: each app's window as a fraction of your display. One hotkey puts everything back, using the Accessibility API and no private Spaces API.</p></li><li class="tile"><h3>Terminals and tabs, ready</h3><p>Open a Terminal or iTerm2 window in your project folder and run a command; open the project's pages in Safari or Chrome. Only http and https pages are ever opened.</p></li><li class="tile"><h3>VPN and Kubernetes, switched</h3><p>Connect the right VPN and point kubectl at the right cluster as part of the same switch, so a production context never carries over by accident.</p></li><li class="tile"><h3>Dry run first</h3><p>See every step, and what would be skipped for missing permissions, before anything moves. The editor and <code>--dry-run</code> show the same plan.</p></li><li class="tile"><h3>Permissions only when needed</h3><p>macOS is asked for Accessibility and Automation the first time a profile uses them. Say no, and just those steps are skipped and listed while the rest still runs.</p></li><li class="tile"><h3>Plain files, no network</h3><p>Profiles are JSON in Application Support. The app has no networking code and its only entitlement is Automation.</p></li></ul>
+  <ul class="tiles"><li class="tile"><h3>Windows, where you left them</h3><p>Save a layout once: each app's window as a fraction of your display. One hotkey puts everything back, using the Accessibility API and no private Spaces API.</p></li><li class="tile"><h3>Terminals and tabs, ready</h3><p>Open a Terminal or iTerm2 window in your project folder and run a command; open the project's pages in Safari or Chrome. Only http and https pages are ever opened.</p></li><li class="tile"><h3>VPN and Kubernetes, switched</h3><p>Connect the right VPN and point kubectl at the right cluster as part of the same switch, so a production context never carries over by accident.</p></li><li class="tile"><h3>Dry run first</h3><p>See every step, and what would be skipped for missing permissions, before anything moves. The editor and <code>--dry-run</code> show the same plan.</p></li><li class="tile"><h3>Permissions only when needed</h3><p>macOS is asked for Accessibility and Automation the first time a profile uses them. Say no, and just those steps are skipped and listed while the rest still runs.</p></li><li class="tile"><h3>Files, Shortcuts, a clean screen</h3><p>New in 0.2.0: open the project folder or a runbook page, run a Shortcut that turns on a Focus mode, hide the apps the profile does not use, and Switch Back to put the windows where they were.</p></li><li class="tile"><h3>Plain files, no network</h3><p>Profiles are JSON in Application Support. The app has no networking code and its only entitlement is Automation.</p></li></ul>
 </section>
 
 <section class="band" aria-label="Overview">
@@ -64,8 +65,9 @@
 
 <section class="steps" id="start" aria-labelledby="steps-h">
   <h2 id="steps-h">Get started in three steps.</h2>
-  <ol><li><h3>Get a trial key</h3><p>Write to <a href="mailto:sales@zyvor.dev?subject=Focus%20Profiles%20trial%20key">sales@zyvor.dev</a> for a free 30-day trial key and the notarized DMG. The app works without a key.</p></li><li><h3>Install</h3><p>Open the DMG and drag Focus Profiles to Applications. It requires <b>macOS 27 or later</b> on Apple silicon and lives in the menu bar.</p></li><li><h3>Make a profile</h3><p>Capture your windows, add a terminal and some tabs, press <b>Dry Run</b>, then give it a hotkey.</p></li></ol>
-  <p class="cta"><a class="btn primary" href="https://zyvor.dev/contact?intent=trial&amp;product=focus" rel="noopener">Ask for a 30-day trial</a><a class="textlink" href="docs/">Docs</a></p>
+  <ol><li><h3>Download</h3><p>Get <code>FocusProfiles-0.2.0.dmg</code> from the release page. The SHA-256 is below and in <code>FocusProfiles-0.2.0.dmg.sha256</code>.</p></li><li><h3>Install</h3><p>Open the DMG and drag Focus Profiles to Applications. It requires <b>macOS 27 or later</b> on Apple silicon and lives in the menu bar.</p></li><li><h3>Make a profile</h3><p>Capture your windows, add a terminal and some tabs, press <b>Dry Run</b>, then give it a hotkey. Want a 30-day trial key? Write to <a href="mailto:sales@zyvor.dev?subject=Focus%20Profiles%20trial%20key">sales@zyvor.dev</a>; the app works without one.</p></li></ol>
+  <div class="sha"><p>Focus Profiles 0.2.0 for Mac · SHA-256</p><pre><code id="sha">bfabd31ff93479f6d71ed8000e0466dc6ae0bed42471c94b9b91a316d098a850</code></pre><p>Verify: <code>echo "bfabd31ff93479f6d71ed8000e0466dc6ae0bed42471c94b9b91a316d098a850 FocusProfiles-0.2.0.dmg" | shasum -a 256 -c</code></p></div>
+  <p class="cta"><a class="btn primary" href="https://github.com/zyvorai/focus/releases/download/v0.2.0/FocusProfiles-0.2.0.dmg">Download FocusProfiles-0.2.0.dmg</a><a class="textlink" href="https://github.com/zyvorai/focus/releases/tag/v0.2.0">Release page</a><a class="textlink" href="docs/">Docs</a></p>
 </section>
 
 <section class="buy-pointer" id="licence" aria-labelledby="pricing-h">
@@ -92,7 +94,7 @@
 </main>
 <footer class="footer">
   <p><strong>Zyvor Focus Profiles</strong> · The Focus Profiles source code is private.</p>
-  <p class="links"><a href="https://zyvor.dev/contact">Support</a><a href="docs/">Docs</a><a href="https://github.com/zyvorai/focus/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/focus">GitHub</a><a href="https://github.com/zyvorai/focus/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/focus/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
+  <p class="links"><a href="https://zyvor.dev/contact">Support</a><a href="docs/">Docs</a><a href="https://github.com/zyvorai/focus/blob/main/CHANGELOG.md">Changelog</a><a href="https://github.com/zyvorai/focus/releases/tag/v0.2.0">Release</a><a href="https://github.com/zyvorai/focus">GitHub</a><a href="https://github.com/zyvorai/focus/blob/main/LICENSE">LICENSE</a><a href="https://github.com/zyvorai/focus/blob/main/SECURITY.md">SECURITY</a><a href="mailto:sales@zyvor.dev">sales@zyvor.dev</a></p>
   <p>© 2026 Zyvor AI Labs Private Limited · <a href="https://zyvor.dev">zyvor.dev</a> · Zyvor Production Licence v2.0</p>
 </footer>
 </body>

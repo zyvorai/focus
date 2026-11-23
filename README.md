@@ -10,9 +10,9 @@ Switch a per-project profile with one hotkey: your window layout, terminal windo
 
 <br />
 
-**[Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Focus%20Profiles%20trial%20key)** &nbsp;·&nbsp; [Website](https://zyvorai.github.io/focus/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Buy](https://zyvor.dev/buy#focus-profiles)
+**[Download 0.2.0](https://github.com/zyvorai/focus/releases/tag/v0.2.0)** &nbsp;·&nbsp; [Ask for a 30-day trial](mailto:sales@zyvor.dev?subject=Focus%20Profiles%20trial%20key)** &nbsp;·&nbsp; [Website](https://zyvorai.github.io/focus/) &nbsp;·&nbsp; [Docs](docs/INSTALL.md) &nbsp;·&nbsp; [Buy](https://zyvor.dev/buy#focus-profiles)
 
-macOS 27 or later · Apple silicon · Developer ID signed and notarized
+`FocusProfiles-0.2.0.dmg` · macOS 27 or later · Apple silicon · Developer ID signed and notarized
 
 </div>
 
@@ -23,7 +23,7 @@ macOS 27 or later · Apple silicon · Developer ID signed and notarized
 | | |
 | --- | --- |
 | **Trial** | A free 30-day trial key: **sales@zyvor.dev**. You do not need a key to use the app. |
-| **Download** | No public download is posted yet. Write to sales@zyvor.dev and we send the notarized DMG with your trial key. Downloads will be attached to this repository's [releases](releases) when the first one is published. |
+| **Download** | [Focus Profiles 0.2.0](https://github.com/zyvorai/focus/releases/tag/v0.2.0): `FocusProfiles-0.2.0.dmg` (SHA-256 `bfabd31ff93479f6d71ed8000e0466dc6ae0bed42471c94b9b91a316d098a850`) |
 | **Requirements** | macOS 27 or later, Apple silicon |
 | **Pricing** | INR 1,999 per Mac, one-time, incl. 18% GST in India and one year of updates (about US$20 excl. tax outside India). Teams of 5 or more Macs: INR 1,699 per Mac (about US$17 excl. tax), minimum 5 Macs (INR 8,495, about US$86), by invoice. Prices: INR incl. 18% GST in India; US dollars excl. tax elsewhere (VAT, GST or sales tax added where applicable). Standard orders: pay online with Razorpay (UPI, card, netbanking). Bigger orders, team and volume orders, and customers outside India: we send a US-dollar invoice and you pay through Skydo (international bank transfer, or card/ACH through a secure Skydo link). Custom pricing: contact sales@zyvor.dev. Buy: [zyvor.dev/buy](https://zyvor.dev/buy#focus-profiles) (30-day trial first). |
 
@@ -36,6 +36,10 @@ One profile per project. One hotkey per profile. Each profile can:
 - **Open browser tabs** in Safari or Google Chrome (http and https only).
 - **Connect or disconnect a VPN** from System Settings (`scutil --nc`).
 - **Switch the kube context** (`kubectl config use-context`).
+- **Open files, folders and pages**, optionally in a chosen app.
+- **Run Apple Shortcuts**, for example one that turns on a Focus mode.
+- **Hide the other apps** once the profile is set up.
+- **Switch Back** puts the windows the last switch moved back where they were.
 
 **Dry run first.** `FocusProfiles --dry-run` (and the Dry Run button in the editor) prints exactly what a switch would do, including what would be skipped for missing permissions. It moves nothing, launches nothing and prompts for nothing.
 
