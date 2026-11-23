@@ -2,14 +2,16 @@
 
 Requires macOS 27 or later on Apple silicon. Focus Profiles is a menu-bar app with no Dock icon.
 
-## 1. Get the download
+## 1. Download and verify
 
-No public download is posted yet. Write to [sales@zyvor.dev](mailto:sales@zyvor.dev?subject=Focus%20Profiles%20trial%20key) for a 30-day trial key; we send the notarized, Developer ID signed DMG with it. Verify it:
+Download [FocusProfiles-0.2.0.dmg](https://github.com/zyvorai/focus/releases/download/v0.2.0/FocusProfiles-0.2.0.dmg) and its `.sha256` file from the [release page](https://github.com/zyvorai/focus/releases/tag/v0.2.0). The DMG is Developer ID signed and notarized by Apple.
 
 ```
-shasum -a 256 -c Focus-Profiles-<version>.dmg.sha256
-xcrun stapler validate Focus-Profiles-<version>.dmg
+shasum -a 256 -c FocusProfiles-0.2.0.dmg.sha256
+xcrun stapler validate FocusProfiles-0.2.0.dmg
 ```
+
+SHA-256 of this release: `bfabd31ff93479f6d71ed8000e0466dc6ae0bed42471c94b9b91a316d098a850`.
 
 ## 2. Install
 
@@ -17,7 +19,7 @@ Open the DMG, drag **Focus Profiles** to Applications and open it. A Welcome win
 
 ## 3. Trial key
 
-You do not need a key. Enter a trial key under **Licence…** in the menu. See [LICENSING.md](LICENSING.md).
+You do not need a key. For a 30-day trial key write to sales@zyvor.dev. Enter a trial key under **Licence…** in the menu. See [LICENSING.md](LICENSING.md).
 
 ## Permissions
 
